@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-char a;
+char b,a;
 printf("enter the character");
-scanf("%c",&a);
+scanf("%c",&b);
+  a=b
 if (a=a ||a=e ||a=i ||a=o ||a=u)
 {
 printf("the character is vowels");
@@ -12,6 +13,5 @@ else
 {
 printf("the character is consonant");
 }
-getch();
 return 0;
 }
